@@ -1,0 +1,14 @@
+class Main {
+    public static void main(String[] args) {
+        int[] nums = {25,75,114,125};
+        int min = nums[0];
+        for( int i = 0; i < nums.length ;i++){
+            int value = nums[i];
+            if(value < min){
+             min = value;    
+            }
+           
+        }
+        System.out.println("min element in an array :" + min);
+    }
+}
